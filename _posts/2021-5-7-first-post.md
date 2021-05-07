@@ -10,7 +10,7 @@ title: First post to be uploaded
   * electric machinery
   * probability and statistics
   
-![sangenie](./images/sangenie.png)
+![sangenie](/images/sangenie.png)
 
 ## **A link to college website** ##
 > [학생지원시스템](https://e-onestop.pusan.ac.kr/index?home=home)
