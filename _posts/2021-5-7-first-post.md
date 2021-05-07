@@ -9,6 +9,6 @@ To-do list
   * circuit theory
   * electric machinery
   * probability and staticstics
-  * 
+  
 ![Sangenie](./images/sangenie.png)
 
