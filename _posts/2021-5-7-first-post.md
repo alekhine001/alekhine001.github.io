@@ -12,5 +12,6 @@ title: First post to be uploaded
   
 ![Sangenie](./images/sangenie.png)
 
-<https://e-onestop.pusan.ac.kr/index?home=home>
+A link to collegeg website 
+> <https://e-onestop.pusan.ac.kr/index?home=home>
 
