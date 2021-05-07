@@ -8,7 +8,7 @@ To-do list
   * **electromatnetics**
   * circuit theory
   * electric machinery
-  * probability and staticstics
+  * probability and statistics
   
 ![Sangenie](./images/sangenie.png)
 
