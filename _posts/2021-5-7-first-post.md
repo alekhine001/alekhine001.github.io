@@ -10,5 +10,5 @@ To-do list
   * electric machinery
   * probability and staticstics
   * 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![Sangenie](./images/sangenie.png)
 
