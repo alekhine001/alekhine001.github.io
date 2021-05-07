@@ -5,7 +5,7 @@ title: First post to be uploaded
 
 ## First post to be uploaded ##
 To-do list
-  * ** electromatnetics **
+  * **electromatnetics**
   * circuit theory
   * electric machinery
   * probability and staticstics
