@@ -9,6 +9,7 @@ title: First post to be uploaded
   * circuit theory
   * electric machinery
   * probability and statistics
+  * digital signal processing
   
 ![sangenie](/images/sangenie.png)
 
