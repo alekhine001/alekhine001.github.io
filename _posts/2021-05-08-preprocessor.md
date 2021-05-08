@@ -49,6 +49,48 @@ int main(void) {
 > define 매크로(arg1, arg2, arg3...) 치환_텍스트
 
 `#define SQUARE(x) x*x`
+이와 같은 함수매크로는 #define 뒤에 따라오는 한줄만 정의할 수 있습니다. 여러줄을 정의할때는 \를 붙여서 정의합니다.
+```c++
+#define FORTH_POWER(x) \
+CUBIC(x)*x ;\
+cout<<"END"<<endl;
+```
+
+```c++
+#include <stdio.h>
+
+#define print() \
+    printf("first line\n"); \
+    printf("second line\n"); \
+    printf("third line\n");
+
+int main()
+{
+    print();
+}
+```
+### 3. 내장매크로 ###
+
+내장 매크로는 우리가 정의하지 않았지만, 이미 컴퓨터에서 정의한 매크로를 의미한다.
+```c++
+__DATE__
+__TIME__
+__LINE__
+__FILE__
+```
+```c++
+#include <iostream>
+using namespace std;
+	
+int main(){
+	cout<< __DATE__<<endl;
+	cout<< __TIME__<<endl;
+	cout<< __LINE__<<endl;
+	cout<< __FILE__<<endl;
+	
+	return 0;
+}
+```
 
 
 
