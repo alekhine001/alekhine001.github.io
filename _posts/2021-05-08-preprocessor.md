@@ -1,16 +1,12 @@
 
----
-layout: post
-title: Preprocessor in c++
----
 
-전처리중, #define 매크로, #if, #ifdef 등
+전처리중, #define 매크로, #if, #ifdef 등이 있습니다. 그중 이글에선 #define 매크로만 다룹니다.
 
-1. #define 매크로
+# #define 매크로 #
 
    #define의 usage에는 단순매크로, 함수 매크로,내장 매크로 가 있습니다.
   
-1. 단순매크로 
+### 1. 단순매크로 ###
   
 > define MAX 100
   
@@ -45,5 +41,15 @@ int main(void) {
 	return 0;
 }
 ```
+### 2. 함수매크로 ###
+#define 을 통해 마치 함수인것처럼 흉내를 낼 수 있습니다.
+
+사용 방법은 다음과 같습니다.
+
+> define 매크로(arg1, arg2, arg3...) 치환_텍스트
+
+`#define SQUARE(x) x*x`
+
+
 
 
