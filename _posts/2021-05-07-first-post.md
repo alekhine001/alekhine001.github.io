@@ -18,5 +18,11 @@ title: First post to be uploaded
 > 
 > [수강편람](https://e-onestop.pusan.ac.kr/menu/class/C03/C03001?menuId=2000030301&rMenu=03)
  
+ 
+ * css 할거
+http://tcpschool.com/css/css_selector_dynamic
+
+* c++
+* 파이썬
 
 
