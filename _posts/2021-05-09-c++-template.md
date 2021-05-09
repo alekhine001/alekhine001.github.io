@@ -33,7 +33,15 @@ char * sum<char*> (char* s1, char* s2){
 ```
 2. 클래스 템플릿
 
-함수 템플릿과 유사하게 사용하면 됩니다.
+함수 템플릿과 유사하게 사용하면 됩니다. 형식은 다음과 같습니다.
+
+>template <typename 타입이름>
+>class 클래스템플릿이름
+>{
+>    // 클래스 멤버의 선언
+>}
+
+객체를 생성할때, <> 안에 템플릿에 전달된 인수 타입을 명시해야 합니다. 함수템플릿에선 컴파일러가 알아서 해당 타입에 맞는 함수를 생성해주는 반면, 클래스 템플릿은 사용자가 사용하고자 하는 타입을 직접 명시해야 합니다.
 
 ```c++
 #include <iostream>
@@ -133,3 +141,31 @@ int main() {
     p2.printAll();
     return 0;
 ```
+* 중첩 클래스 템플릿
+```c++
+template <typename T>
+class X
+{
+    template <typename U>
+    class Y
+    {
+        ...
+    }
+    ...
+    }
+ 
+int main(void)
+{
+    ...
+}
+ 
+template <typename T>
+template <typename U>
+X<T>::Y<U>::멤버함수이름()
+{
+    ...
+}
+```
+위 코드처럼 바깥쪽 클래스인 X 외부에 중첩클래스 템플릿 Y를 정의할떄, 클래스 템플릿의 템플릿 인수와 멤버 템플릿의 템플릿 인수가 둘다 앞에 명시되어야 합니다.(template <typename T>
+
+template <typename U>)
