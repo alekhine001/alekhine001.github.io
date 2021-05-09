@@ -168,6 +168,17 @@ int main(){
 10
 ```
 
+### inline ###
+
+### namespace ###
+ 
+1. namespace 정의 및 헤더에 선언
+2. namespace global, local
+3. 특정 namespac만
+
+### 함수 포인터 ###
+
+
 
 
 
